@@ -12,4 +12,6 @@
       <%= render partial: "user", collection: @users  %>
     </tbody>
   </table>
+
+  <%= paginate @users, theme: "twitter-bootstrap-3" %>
 </div>
